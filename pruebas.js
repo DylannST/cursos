@@ -33,12 +33,17 @@ var mayoresDeEdad = listaGrande.filter(function (personas) {
   return personas.edad >= 18;
 });
 
-//metodo find ayuda a encontrar valores en especifico devuelve tru o false
+//metodo find ayuda a encontrar valores en especifico y te lo trae
 var encuentraOmally = listaGrande.find(function (personas) {
   return personas.nombre === "omally";
 });
 
 //metodo for each solo sirve para rrecorrer
-listaGrande.forEach(function(personas){
-console.log(personas.nombre)
-})
+listaGrande.forEach(function (personas) {
+  console.log(personas.nombre);
+});
+
+//metodo some() sirve para una filtracion solo  que devuelve falso o verdadero
+var genteJoven = listaGrande.some(function (personas) {
+  return personas.edad <= 17;
+});
