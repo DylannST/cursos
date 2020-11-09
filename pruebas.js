@@ -37,3 +37,8 @@ var mayoresDeEdad = listaGrande.filter(function (personas) {
 var encuentraOmally = listaGrande.find(function (personas) {
   return personas.nombre === "omally";
 });
+
+//metodo for each solo sirve para rrecorrer
+listaGrande.forEach(function(personas){
+console.log(personas.nombre)
+})
