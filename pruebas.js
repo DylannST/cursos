@@ -16,6 +16,4 @@ lista.unshift("gelatina");
 
 for (var aux of listas) {
 }
-for (var aux of informacion) {
-  console.log(aux);
-}
+
