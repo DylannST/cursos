@@ -32,3 +32,8 @@ var listaGrande = [
 var mayoresDeEdad = listaGrande.filter(function (personas) {
   return personas.edad >= 18;
 });
+
+//metodo find ayuda a encontrar valores en especifico devuelve tru o false
+var encuentraOmally = listaGrande.find(function (personas) {
+  return personas.nombre === "omally";
+});
