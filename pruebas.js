@@ -19,3 +19,16 @@ for (var aux of listas) {
 for (var aux of informacion) {
   console.log(aux);
 }
+
+//filter para recorrer listas
+var listaGrande = [
+  { nombre: "pepe", edad: 15 },
+  { nombre: "omally", edad: 30 },
+  { nombre: "hector", edad: 19 },
+  { nombre: "miranda", edad: 17 },
+  { nombre: "soledad", edad: 25 },
+  { nombre: "brayan", edad: 13 },
+];
+var mayoresDeEdad = listaGrande.filter(function (personas) {
+  return personas.edad >= 18;
+});
