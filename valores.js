@@ -1,0 +1,1 @@
+var elementos=["hola",2,"ey"]
