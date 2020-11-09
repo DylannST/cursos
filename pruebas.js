@@ -8,8 +8,14 @@ var palabra1 = "verde";
 var palabra2 = "azul";
 var guardar = palabra1 === "azul " ? "es azul" : "no es azul";
 
-var lista =["papa","melon", "zanahoria"]
+var lista = ["papa", "melon", "zanahoria"];
 //muestra la posicion
-lista.indexOf("melon")
+lista.indexOf("melon");
 //agrega al principio del array
-lista.unshift("gelatina")
+lista.unshift("gelatina");
+
+for (var aux of listas) {
+}
+for (var aux of informacion) {
+  console.log(aux);
+}
