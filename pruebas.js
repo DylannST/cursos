@@ -47,3 +47,5 @@ listaGrande.forEach(function (personas) {
 var genteJoven = listaGrande.some(function (personas) {
   return personas.edad <= 17;
 });
+
+//eliminar metodos de un array
