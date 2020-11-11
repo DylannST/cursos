@@ -29,6 +29,7 @@ var listaGrande = [
   { nombre: "soledad", edad: 25 },
   { nombre: "brayan", edad: 13 },
 ];
+//metodo filter sirve para filtrar en grupo
 var mayoresDeEdad = listaGrande.filter(function (personas) {
   return personas.edad >= 18;
 });

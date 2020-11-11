@@ -11,7 +11,7 @@ se desborda
 -xmlhttpsrequest--permite el intercambio asincrono entre el cliente y el servidor
 -eventloop--observadoor para saber si el call stack esta vacio
 -Callback queue--bandeja de espera como una fila en donde estan las tareas en su turno por decirlo así para pasar al callStack
--setTimeout(()=>{},tiempoDeRespuestaEnSegundos)--->metodo que queda a cargo del navegador, y no de javaScript (adentro va un arrow function)
+-setTimeout(()=>{},tiempoDeRespuestaEnMiliSegundos)--->metodo que queda a cargo del navegador, y no de javaScript (adentro va un arrow function)
 al setTimeout se le masnda la funcion que quieres que haga el navegador, la función que hace el navegador la hace en paralelo con JavaScript
 si eltimepoensegundos es 0 significa que el navegador lo hace mas rapido pero aun asi tiene que esperar a que JavaSript lo termine
 -arrow function o funciones anonimas ()=>{} es igual a function(){} ejm: (a,b)=> a+b es igual a function(a,b){return a+b}
