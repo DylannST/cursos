@@ -1,0 +1,8 @@
+$scope=hasta donde puede llegar una variable ya 
+sea un bloque o el global
+
+$npm init=para poner las reglas que va a tener 
+el proyecto
+
+$con let no se puede declarar 2 veces
+
