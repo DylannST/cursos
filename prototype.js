@@ -4,13 +4,13 @@ operar.prototype.restar = function () {
 };
 function operar(nombre, a, b) {
   //const metodos = Object.create(operar.prototype);
-  this.name = nombre;
+  this.nombre = nombre;
   this.a = a;
   this.b = b;
 }
 
 const numero1 = new operar("el primero", 2, 4);
-console.log(numero1.name);
+console.log(numero1.nombre);
 
 console.log(numero1.restar());
 
@@ -24,7 +24,7 @@ function triangulo(nombre, a, b, puntas) {
 //aqui se hace la herencia
 triangulo.prototype = new operar();
 const valor = new triangulo("triangulo", 5, 6, 3);
-console.log(valor.name);
+console.log(valor.nombre);
 
 //reescribir-------------------------------------------------
 triangulo.prototype.restar = function () {
@@ -32,3 +32,19 @@ triangulo.prototype.restar = function () {
 };
 
 console.log(valor.restar());
+
+//-----------------------------------------------------
+
+class figuras {
+  constructor(nombre, puntas) {
+    this.nombre = nombre;
+    this.puntas = puntas;
+  }
+
+  mostrar() {
+    console.log(`soy ${this.nombre} y tengo ${this.puntas} puntas`);
+  }
+}
+
+const cuadrado = new figuras("cuadrado", 4);
+cuadrado.mostrar();
